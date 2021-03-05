@@ -1,0 +1,64 @@
+body{background: #E5E5E5;}
+.nav_section{background: #F0FFF0;}
+.nav_section img{width: 198.07px;}
+.nav_section .left{text-align: right; }
+.poster .ready{color:#FD511A;
+    margin-top: 50px;        
+}
+.poster h1{font-weight: 600;}
+.poster .green{color: #21B573;}
+.poster .start{margin-top: 15px; margin-bottom: 35px;}
+.second_part{margin-top: 50px;}
+.second_part img{width: 450px;float: left;}
+
+
+/* buttton section */
+button {
+    border: none;
+   color: #fff;
+   background: #21B573;
+   padding: 10px 20px;
+   border-radius: 20px;
+}
+button a{color: #fff; text-decoration: none;}
+button a:hover{color: #fff; text-decoration: none;}
+button:hover {
+   color: #fff;
+   background: #000;
+   text-decoration: none;
+}
+
+/* material section */
+.material{text-align: center;}
+.material img{
+    width: 66px; 
+    height: 80px;
+    margin: auto;
+    margin-top: 25px;
+}
+.card {
+	border: none;
+    background: #F8FFFB;
+}
+.material :hover.card{background: #fff;box-shadow: 10px 10px 10px rgb(170, 169, 169);}
+
+/* course section */
+.card-footer {
+	padding: .75rem 1.25rem;
+	background-color: #fff;
+	border-top: none;
+}
+.testimonial{height: 300px;}
+.testimonial img{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 150px;
+}
+
+/* footer section */
+.footer_section ul{list-style: none;margin: 0; padding: 0;}
+footer_section ul li{}
+.footer_section ul li a{text-decoration: none; color: #fff;}
+.footer_section ul li a:hover{text-decoration: none; color: rgb(255, 196, 196);}
+.footer_section h6{font-weight: 700;}
