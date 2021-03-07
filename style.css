@@ -48,12 +48,19 @@ button:hover {
 	background-color: #fff;
 	border-top: none;
 }
+/* .testimonial */
 .testimonial{height: 300px;}
+.testimonial .testimonial_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .testimonial img{
     height: 120px;
     width: 120px;
     position: relative;
-    left: 150px;
+    /* left: 150px; */
 }
 
 /* footer section */
@@ -62,3 +69,50 @@ footer_section ul li{}
 .footer_section ul li a{text-decoration: none; color: #fff;}
 .footer_section ul li a:hover{text-decoration: none; color: rgb(255, 196, 196);}
 .footer_section h6{font-weight: 700;}
+
+
+/* resonsive section */
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    
+}
+    @media only screen and (min-width: 600px) and (max-width: 767px) {
+        .testimonial {
+            height: 350px;
+        }
+        .footer_section h6 {
+            margin-top: 20px;
+        }
+        
+        .testimonial .testimonial_img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    } 
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+    .testimonial {
+        height: 350px;
+    }
+    .footer_section h6 {
+        margin-top: 20px;
+    }
+    
+}
+@media only screen and (max-width:480px) {
+    .testimonial {
+        height: 400px;
+    }
+    .footer_section h6 {
+        margin-top: 20px;
+    }
+    
+}
+
+
+
+
+
+
